@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso de HTML5 - Menu Vertical</title>
+        
+        <style>
+			body {
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size:13px;
+			}
+			
+			ul {
+				margin: 0;
+                padding: 0;
+                width: 200px;
+                
+			}
+			
+			li {
+			 list-style: none;
+			}
+			
+			li a {
+                display: block;
+                text-decoration: none;
+                background-color: crimson;
+                color: aqua;
+                margin-bottom: 1px;
+                padding: 5px;
+                
+				
+			}
+			
+			li a:hover {
+                background-color: coral;
+			
+			}
+        </style>
+        <!-- ao colocar margin 0 e o padding 0 você automaticamente 
+        elimina os topicos da listas porem navegadores mais antigos ainda mantem,
+        para elimiar completamente use um list-style: none. display: block; mantem o link
+        durante toda a linha do link. o text-decoration: none; elimina o sublinhado
+        background-color: crimson; cria um quadro colorido envolta do link o width determina o tamanho desse quadrado
+        color você adiciona uma cor a o item listado e margin-bottom e padding dão um
+        espaçamento entre os itens da lista, e no li a:houver você pode determinar
+        uma cor para quando passar o mause sobre a lista o item mude de cor -->
+        </head>
+
+        <body>        
+            <ul>
+                <li><a href="brasil.html">Brasil</a></li>
+                <li><a href="portugal.html">Portugal</a></li>
+                <li><a href="angola.html">Angola</a></li>
+                <li><a href="mocambique.html">Moçambique</a></li>
+                <li><a href="caboverde.html">Cabo Verde</a></li>
+            </ul>
+        </body>
+</html>

@@ -2,7 +2,7 @@
 
 <html lang="pt-br">
     <head>
-        <meta charset="utf-8">
+        <meta charset="ISO-8859-2">
         <title>Curso de HTML5 - Menu Vertical</title>
         
         <style>
@@ -12,22 +12,34 @@
 			}
 			
 			ul {
+				margin:0;padding:0;
 				
 			}
 			
 			li {
-			
+				list-style:none;
+                display: inline-block;
 			}
 			
 			li a {
 				
+				text-decoration:none;
+				color:#FFF;
+				background-color:#09C;
+				margin-bottom:1px;
+				padding:5px 15px;
 			}
 			
 			li a:hover {
-			
+				background-color:#6CF
 			}
+            
+           
         </style>
-        
+         <!-- elimine width e o display:block; e adicione no li o display: inline-block;
+          e ajuste no paddin o espaçamento entre um e outro sendo o primeiro o espaço de cima e embaixo e o 
+        segundo o da lateral ou um margin-left:-4px; no li a para eliminar
+        completamento o espaço entre os itens -->
         </head>
 
         <body>        
