@@ -55,16 +55,70 @@
 			font-size:.9em;
 			color:#666;
 		}
-	
+        
+        tbody tr:nth-child(odd){
+            background-color: beige;
+        }
+        
+	    tbody tr:nth-child(even){
+            background-color: salmon;
+        }
 	
 	</style>
-
-    <body>
+    <!-- tbody tr:nth-child(odd) para adicionar cor a tabela de forma sim e não
+sendo o odd para linhas impares e o even para pares -->
+    <body> 
 		
         <table>
-        
+            <!-- titulo da tabela -->
+            <caption> Olimpiadas </caption>
+            <!-- cabeçalho da tabela -->
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Ouro</td>
+                    <td>Prata</td>
+                    <td>Bronze</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <!-- rodapé da tabela -->
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td>Ouro</td>
+                    <td>Prata</td>
+                    <td>Bronze</td>
+                    <td>Total</td>
+                </tr>
+            </tfoot>
+            <!-- corpo da tabela -->
+            <tbody>
+                <tr>
+                    <td>Brasil</td>
+                    <td>100</td>
+                    <td>130</td>
+                    <td>200</td>
+                    <td>430</td>
+                </tr>
 
-        
+                <tr>
+                    <td>USA</td>
+                    <td>90</td>
+                    <td>110</td>
+                    <td>210</td>
+                    <td>420</td>
+                </tr>
+
+
+                <tr>
+                    <td>China</td>
+                    <td>89</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>289</td>
+                </tr>
+            </tbody>
         </table>
 
     </body>
